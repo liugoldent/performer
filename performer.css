@@ -1,0 +1,62 @@
+
+body {
+    position:relative;
+    background-image: url(https://i.imgur.com/1phzoxB.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    height: 1000px;
+    max-width: auto;
+}
+*{
+    font-family: serif;
+}
+
+
+/* 導覽區 design */
+ul.nav p{
+    font-size: 25px;
+    text-align:center;
+    margin:0px auto;
+}
+
+body ul{
+    position:relative;
+    text-align: center;
+}
+
+ul.nav{
+    background-color: black;
+}
+
+/* 內容區 design no party */
+
+body .tab-content{
+    position:relative;
+}
+
+.row div.col-lg-12{
+    color:aliceblue;
+    text-align:center;
+    top:70px;
+    width:150px;
+    height:750px;
+}
+
+body .tab-content h3{
+    text-align:center;
+    position:relative;
+    top:50px;
+    color:antiquewhite;
+    font-weight: 1000;
+}
+
+body #icon{
+    letter-spacing: 15px;
+}
+
+body #icon i:hover{
+    color:skyblue;
+}
+
