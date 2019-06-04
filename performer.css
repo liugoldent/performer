@@ -34,15 +34,22 @@ ul.nav{
 
 body .tab-content{
     position:relative;
+    margin:0px auto;
 }
 
-.row div.col-lg-12{
+.row .col-lg-12 {
     color:aliceblue;
     text-align:center;
     top:70px;
     width:150px;
     height:750px;
+    position: relative;
+    margin:0px auto;
 }
+
+
+
+
 
 body .tab-content h3{
     text-align:center;
@@ -52,11 +59,15 @@ body .tab-content h3{
     font-weight: 1000;
 }
 
-body #icon{
+body .icon{
+    position:relative;
+    margin:0px auto;
+}
+body .icon{
     letter-spacing: 15px;
 }
 
-body #icon i:hover{
+body .icon i:hover{
     color:skyblue;
 }
 
