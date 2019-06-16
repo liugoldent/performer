@@ -8,5 +8,4 @@
 
 ## Using
 
-- [X] [JS]
-- [X] 
+- [X] [HTML、CSS]
