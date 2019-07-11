@@ -13,11 +13,7 @@ body {
     font-family: serif;
 }
 
-img{
-    border-radius: 5px;
-    display: block;
-    margin:0px auto;
-}
+
 
 /* 導覽區 design */
 ul.nav p{
@@ -29,11 +25,18 @@ ul.nav p{
 body ul{
     position:relative;
     text-align: center;
+    display:block;
+    margin:0px;
 }
+
 
 ul.nav{
     background-color: black;
 }
+/* li.nav-item{
+    display:block;
+    margin:auto;
+} */
 
 /* 內容區 design no party */
 
@@ -44,19 +47,23 @@ ul.nav{
 body .tab-content{
     position:relative;
     margin:0px auto;
+    height:auto;
 }
 
-.row .col-lg-12 {
+.col-12,.col-xs-12,.col-md-12,.col-lg-12{
     color:aliceblue;
     text-align:center;
-    width:150px;
+    width:auto;
     height:750px;
     position: relative;
     margin:0px auto;
+    display:block;
 }
 
-
-
+.col-12,.col-xs-12,.col-md-12,.col-lg-12{
+    position: relative;
+    margin:0px auto;
+}
 
 
 body .tab-content h3{
@@ -79,6 +86,14 @@ body .icon i:hover{
     color:skyblue;
 }
 
+img{
+    border-radius: 5px;
+    display: block;
+    margin:0px auto;
+    max-width:100%;
+}
+
+
 /* Final Section */
 
 body #section5{
@@ -87,7 +102,7 @@ body #section5{
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-position: center;
-    height: 400px;;
+    height: 400px;
     max-width: 100%;
 }
 
