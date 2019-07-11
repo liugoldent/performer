@@ -5,9 +5,11 @@ var img = w-100;
 if (w < 812) {
   $('ul.nav').css('display', 'block');
   $('ul.nav').css('margin', 'auto');
-  var h = $('.nav').height();
-  var imgH = h + 50;
-  $('.row>.FirstImg').css('top', imgH);
+  $('ul.nav p').css('font-size','18px');
+  $('#titleBar').removeClass('fixed-top');
+  // var h = $('.nav').height();
+  // var imgH = h + 50;
+   $('.row>.FirstImg').css('top','5px');
 };
 
 
