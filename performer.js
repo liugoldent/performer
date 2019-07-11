@@ -13,7 +13,7 @@ if (w < 812 || w==980) {
 };
 
 if(w==980){
-  $('section5_icon').css('padding-right','3px');
+  $('#section5_icon').css('padding-right','3px');
 }
 
 // if(w<1200){
