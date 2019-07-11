@@ -2,7 +2,7 @@ var w = $(window).width();
 console.log(w);
 var img = w-100;
 
-if (w < 812) {
+if (w < 812 || w==980) {
   $('ul.nav').css('display', 'block');
   $('ul.nav').css('margin', 'auto');
   $('ul.nav p').css('font-size','18px');
