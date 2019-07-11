@@ -12,6 +12,9 @@ if (w < 812 || w==980) {
    $('.row>.FirstImg').css('top','5px');
 };
 
+if(w==980){
+  $('section5_icon a').css('padding-right','3px');
+}
 
 // if(w<1200){
 //   $('.col-12>img').css('width', img);
